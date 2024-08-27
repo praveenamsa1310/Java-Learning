@@ -31,7 +31,7 @@ public class ArrayListClass {
             }
             if(op == 2){
                 int a;
-                System.out.print("Enter Index : ");
+                System.out.print("Enter Inde x : ");
                 a = getInput.nextInt();
                 arrlist.remove(a-1);
                 System.out.println("Element deleted sucessfully !!!");
@@ -42,7 +42,7 @@ public class ArrayListClass {
                     System.out.print(arrlist.get(i)+",");
                 }
                 //System.out.println("ArrayList : "+arrlist);
-                System.out.println("  -----> Size of ArralList : "+arrlist.size());
+                System.out.println("  -----> Size of ArraylList : "+arrlist.size());
                 System.out.println("************************************************************");
             }
             if(op == 4){

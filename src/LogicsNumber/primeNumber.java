@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class primeNumber {
     public static void main(String[] args) {
-        int start = 2,end;
+        int start = 11,end;
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter end value : ");
         end = obj.nextInt();
@@ -26,7 +26,6 @@ public class primeNumber {
                     break;
             }
         }
-            
        
         
     }

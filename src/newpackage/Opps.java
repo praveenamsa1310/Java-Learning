@@ -4,7 +4,7 @@ package newpackage;
  *
  * @author PRAVEENAGRUD
  */
-class Vehicle extends Methods
+class Vehicle
 {
     protected String brand = "BMW";
     public String sound(String soundOfBmw)
